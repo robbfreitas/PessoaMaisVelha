@@ -11,11 +11,11 @@ namespace PessoaMaiVelha
             Pessoa p1 = new Pessoa();
             Pessoa p2 = new Pessoa();
 
-            Console.WriteLine("Dado da primeira pessoa: ");
+            Console.WriteLine("Informe nome e idade da primeira pessoa: ");
             p1.nome = Console.ReadLine();
             p1.idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Dado da segunda pessoa: ");
+            Console.WriteLine("Informe nome e idade da segunda pessoa: ");
             p2.nome = Console.ReadLine();
             p2.idade = int.Parse(Console.ReadLine());
 
