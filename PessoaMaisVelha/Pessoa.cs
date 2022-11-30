@@ -8,7 +8,7 @@ namespace PessoaMaisVelha
 {
     internal class Pessoa
     {
-        public string nomePessoa;
-        public int idadePessoa;
+        public string nome;
+        public int idade;
     }
 }

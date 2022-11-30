@@ -12,20 +12,20 @@ namespace PessoaMaiVelha
             Pessoa p2 = new Pessoa();
 
             Console.WriteLine("Dado da primeira pessoa: ");
-            p1.nomePessoa = Console.ReadLine();
-            p1.idadePessoa = int.Parse(Console.ReadLine());
+            p1.nome = Console.ReadLine();
+            p1.idade = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Dado da segunda pessoa: ");
-            p2.nomePessoa = Console.ReadLine();
-            p2.idadePessoa = int.Parse(Console.ReadLine());
+            p2.nome = Console.ReadLine();
+            p2.idade = int.Parse(Console.ReadLine());
 
-            if (p1.idadePessoa > p2.idadePessoa)
+            if (p1.idade > p2.idade)
             {
-                Console.WriteLine("Pessoa mais velha é {0}", p1.nomePessoa);
+                Console.WriteLine("Pessoa mais velha é {0}", p1.nome);
             }
             else
             {
-                Console.WriteLine("Pessoa mais velha é {0}", p2.nomePessoa);
+                Console.WriteLine("Pessoa mais velha é {0}", p2.nome);
             }
         }
     }
